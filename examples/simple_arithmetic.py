@@ -1,17 +1,15 @@
-# examples/simple_arithmetic.py
 import os
 import sys
-# Add the project root directory to Python path
+
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(project_root)
 
 from src.compiler.jit_compiler import JITCompiler
 
 def main():
-    # Create JIT compiler instance
+    
     jit = JITCompiler()
-   
-    # Test expressions
+
     test_expressions = [
         "2 + 3",
         "4 * 5",
@@ -21,7 +19,6 @@ def main():
         "10 * 2.5"
     ]
    
-    # Compile and run each expression
     for expr in test_expressions:
         try:
             result = jit.compile(expr)
