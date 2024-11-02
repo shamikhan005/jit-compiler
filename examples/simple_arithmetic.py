@@ -7,7 +7,6 @@ sys.path.append(project_root)
 from src.compiler.jit_compiler import JITCompiler
 
 def main():
-    
     jit = JITCompiler()
 
     test_expressions = [
