@@ -1,4 +1,3 @@
-# src/compiler/jit_compiler.py
 from ..lexer.lexer import Lexer
 from ..utils.errors import CompilerError
 
