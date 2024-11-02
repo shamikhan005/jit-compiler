@@ -1,4 +1,3 @@
-# src/lexer/lexer.py
 from ..utils.errors import LexerError
 from .token import Token
 
